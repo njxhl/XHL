@@ -49,19 +49,19 @@
 <div class="tabs">
     <ul>
         <li>
-            <a href="javascript:void(0)" data-target="#tab1">
+            <a href="/XHL/consultation/dsj/dsj.html">
                 <p class="icon iconfont icon-gongsidsj"></p>
                 <p>大事记</p>
             </a>
         </li>
         <li>
-            <a href="javascript:void(0)" data-target="#tab2">
+            <a href="/XHL/consultation/gsdt/gsdt.html">
                 <p class="icon iconfont icon-gongsidongtai"></p>
                 <p>公司动态</p>
             </a>
         </li>
         <li>
-            <a href="javascript:void(0)" data-target="#tab3">
+            <a href="/XHL/consultation/gsgg/gsgg.html">
                 <p class="icon iconfont icon-gonggao"></p>
                 <p>网站公告</p>
             </a>
@@ -74,11 +74,9 @@
         </div>
         <div id="tab2">
             <span></span>
-            tab2 content
         </div>
         <div id="tab3">
             <span></span>
-            tab3 content
         </div>
     </div>
 </div>
@@ -87,7 +85,7 @@
 <script type="text/javascript">
 
     (function($){
-        $.getJSON("/XHL/data/event.json",function(data){
+        $.getJSON(dataUrl,function(data){
             var ht = "";
                 for(var i=0;i<data.length;i++) {
                     if(i%2 == 0){
@@ -103,7 +101,7 @@
                             + "<a href='"+data[i].articleUrl+"'><span class='readAll'>阅读全文</span></a></div>"
                             + "</div></div>";
                 }
-            $("#tab1").append(ht);
+            $(tabId).append(ht);
         });
 
         function subString(text){
@@ -120,12 +118,12 @@
             $("#tab1>span").css("left",width/2-20+"px");
             $("#tab2>span").css({"left":"50%","right":"50%","margin-left":-20+"px"});
             $("#tab3>span").css("right",width/2-20+"px");
-            $(this).find("ul>li").each(function(){
-                $(this).click(function(){
-                    $(this).addClass('active').siblings().removeClass('active');
-                    $($(this).find("a").attr("data-target")).addClass("active").siblings().removeClass("active");
-                })
-            });
+//            $(this).find("ul>li").each(function(){
+//                $(this).click(function(){
+//                    $(this).addClass('active').siblings().removeClass('active');
+//                    $($(this).find("a").attr("data-target")).addClass("active").siblings().removeClass("active");
+//                })
+//            });
         }
     })(jQuery);
 
