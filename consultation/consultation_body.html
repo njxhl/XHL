@@ -94,14 +94,17 @@
                     else{
                         ht += "<div>";
                     }
+                    var articleUrl = "/XHL/article/article.html?type=dsj&year="+data[i].year+"&month="+data[i].month+"&day="+data[i].day+"&file="+data[i].articleUrl;
                     ht += "<div class='img-left'><img src='"+data[i].previewImg+"'/></div><div class='newRight'>"
                             + "<h3>"+data[i].title+"</h3>"
                             + "<p class='newDetail'>"+subString(data[i].content)+"</p>"
-                            + "<div class='newsBottom'><span class='time'>"+data[i].date+"</span>"
-                            + "<a href='"+data[i].articleUrl+"'><span class='readAll'>阅读全文</span></a></div>"
+                            + "<div class='newsBottom'><span class='time'>"+data[i].year+"-"+data[i].month+"-"+data[i].day+"</span>"
+                            + "<a href='"+articleUrl+"'><span class='readAll'>阅读全文</span></a></div>"
                             + "</div></div>";
                 }
             $(tabId).append(ht);
+        },function(){
+            alert("出错了");
         });
 
         function subString(text){

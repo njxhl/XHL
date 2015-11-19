@@ -9,8 +9,9 @@
 }
 
 html{
+
     background-color: #efefef;
-    font-family: sans-serif;
+    font-family: "Microsoft YaHei",sans-serif;
 }
 
 a{
@@ -24,6 +25,14 @@ a:hover{
 
 img{
     max-width: 100% !important;
+}
+
+.color-darkred{
+    color:darkred;
+}
+
+.border-gray{
+    border:1px solid #999;
 }
 
 .float-left{
