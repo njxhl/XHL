@@ -44,8 +44,8 @@
         text-decoration: underline;
     }
 </style>
-
-<h1 class="title text-center color-orange"><span>公司资讯</span></h1>
+<img src="/XHL/img/1.png" alt="" style="width: 100%">
+<!--<h1 class="title text-center color-orange"><span>公司资讯</span></h1>-->
 <div class="tabs">
     <ul>
         <li>
@@ -115,12 +115,13 @@
         }
 
         $.fn.tab = function(){
-            var width = Math.round(($(this).width()-10)/3);
-            $(this).find("ul>li").width(width);
-            $(this).find(".tabs-content>div").width($(this).find("ul").width());
-            $("#tab1>span").css("left",width/2-20+"px");
+            var width = 300;
+            var leftWidth = Math.floor(document.documentElement.clientWidth - 900)/2;
+            $(this).find("ul>li").css("width",width+"px");
+            $(this).find("ul").css({"position":"relative","left":leftWidth+"px"});
+            $("#tab1>span").css("left",leftWidth+width/2-20+"px");
             $("#tab2>span").css({"left":"50%","right":"50%","margin-left":-20+"px"});
-            $("#tab3>span").css("right",width/2-20+"px");
+            $("#tab3>span").css("right",leftWidth+width/2-30+"px");
 //            $(this).find("ul>li").each(function(){
 //                $(this).click(function(){
 //                    $(this).addClass('active').siblings().removeClass('active');
