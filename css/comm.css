@@ -159,23 +159,27 @@ ul.list-item-horizontal>li:after{
     height:100px;
 }
 
-ul.consultation{
+#product ul,#consultation ul{
     z-index: 9999;
     list-style: none;
     position: relative;
     display: none;
 }
 
-ul.consultation>li{
+#product ul>li,#consultation ul>li{
     background: rgb(2,107,221);
     border-top: 1px solid #fff;
 }
 
-#consultation:hover ul.consultation{
+#product:hover ul,#consultation:hover ul{
     display: block;
 }
 
+#product ul>li:hover,#consultation ul>li:hover {
+    background-color: rgb(254,115,22);
+}
 
+/*底部*/
 .copyright{
     min-width: 1100px;
     background-color: rgb(73,74,75);
