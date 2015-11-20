@@ -244,16 +244,6 @@ h1.title>span{
     margin-left: 5%;
 }
 
-
-/*模糊背景效果*/
-body.blur-body .blur{
-    -webkit-filter: blur(3px); /* Chrome, Opera */
-    -moz-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
-    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=false); /* IE6~IE9 */
-}
-
 li.bqlh>ul,li.hljd>ul,li.other>ul{
     position: relative;
     left: 130px;
