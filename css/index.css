@@ -28,60 +28,13 @@
     margin: 0 auto;
 }
 
-.btn-group{
-    display: block;
-    margin: 0 auto;
-    padding: 2em 0px;
+div.introduction{
+    text-indent: 2em;
+    color: #666;
+    line-height: 2em;
+    padding: 2em 6em;
 }
 
-.btn-group>a.btn{
-    position: relative;
-    left: 7.5em;
-    margin: 0 2em;
-    display: inline-block;
-    text-align: center;
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
-    background-color: rgb(193,194,195);
-    border-radius: 2px;
-}
-
-.btn-group>a.btn:hover{
-    background-color: rgb(100, 100, 100);
-}
-
-.btn-group ul{
-    position: absolute;
-    margin-top: -152px;
-    display:none;
-}
-
-.btn-group ul li{
-    margin-bottom: 1px;
-}
-
-.btn-group ul li  button{
-    display: block;
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    font-size: 1em;
-    border-radius: 2px;
-    background-color: rgb(193,194,195);
-    border:none;
-    color: #fff;
-    cursor: pointer;
-}
-
-.btn-group ul li button:hover{
-    background-color: rgb(100, 100, 100);
-}
-
-#register:hover ul{
-    display: block;
-}
 
 
 /*大事记*/
@@ -147,7 +100,7 @@
 /*大事记详情*/
 .bigEvent .bigEvent-detail {
     padding: 0;
-    font-size: 14px;
+    font-size: 1em;
     line-height: 1.8em;
     height: 2em;
     text-indent: 1.2em;
@@ -174,7 +127,8 @@
 
 /*大事件底部*/
 .bigEvent-foot{
-    line-height: 3em;
+    line-height: 2em;
+    font-size: .9em;
 }
 
 .bigEvent>li:hover .bigEvent-foot{

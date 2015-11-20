@@ -33,3 +33,72 @@ hr{
     border-radius: 5px;
     background-color: rgb(254,115,22);
 }
+
+/*图片,入口*/
+.box{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 1px;
+}
+
+.box>img{
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-group{
+    display: block;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.btn-group>a.btn{
+    position: relative;
+    left: 7.5em;
+    margin: 0 2em;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(193,194,195);
+    border-radius: 2px;
+}
+
+.btn-group>a.btn:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+.btn-group ul{
+    position: absolute;
+    margin-top: -157px;
+    list-style: none;
+}
+
+.btn-group ul li{
+    display: block;
+    margin-bottom: 1px;
+    margin-left: -10px;
+}
+
+.btn-group ul li  button{
+    display: block;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 2px;
+    background-color: rgb(193,194,195);
+    border:none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-group ul li button:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+#register:hover ul{
+    display: block;
+}
