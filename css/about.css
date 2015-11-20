@@ -59,8 +59,9 @@ hr{
     display: inline-block;
     text-align: center;
     width: 150px;
-    height: 50px;
+    /*height: 50px;*/
     line-height: 50px;
+    color: #fff;
     background-color: rgb(193,194,195);
     border-radius: 2px;
 }
@@ -73,6 +74,8 @@ hr{
     position: absolute;
     margin-top: -157px;
     list-style: none;
+    display: none;
+    margin-left: -32px;
 }
 
 .btn-group ul li{
@@ -83,8 +86,8 @@ hr{
 
 .btn-group ul li  button{
     display: block;
-    width: 170px;
-    height: 50px;
+    width: 150px;
+    /*height: 50px;*/
     line-height: 50px;
     text-align: center;
     font-size: 1em;

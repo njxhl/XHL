@@ -112,8 +112,8 @@
         });
 
         function subString(text){
-            if(text.length >= 120){
-                return text.substr(0,120)+"……";
+            if(text.length >= 50){
+                return text.substr(0,50)+"……";
             }
             return text;
         }
@@ -122,7 +122,7 @@
             var width = 300;
             var leftWidth = Math.floor(document.documentElement.clientWidth - 900)/2;
             $(this).find("ul>li").css("width",width+"px");
-            $(this).find("ul").css({"position":"relative","left":leftWidth+"px"});
+            $(this).find("ul").css({"position":"relative","left":leftWidth-32+"px"});
             $("#tab1>span").css("left",leftWidth+width/2-20+"px");
             $("#tab2>span").css({"left":"50%","right":"50%","margin-left":-20+"px"});
             $("#tab3>span").css("right",leftWidth+width/2-30+"px");
