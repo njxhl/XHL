@@ -36,7 +36,15 @@
         });
     </script>
 </head>
-<body>
+<body class="">
+
+<div id="loading"  style="width: 100%;height: 100%;;position: absolute;background-color: rgba(0,0,0,.2);">
+    <h1 style="color: #fff;position: relative;top: 30%;text-align: center">正在加载,请稍后……</h1>
+</div >
+
+
+<div class="blur">
+
 <header></header>
 
 <div class="article w-900 border-gray" style="margin: 3em auto;">
@@ -74,14 +82,12 @@
             <!--</div>-->
     </div>
 </div>
-
-
 <footer></footer>
+</div>
 <script type="text/javascript">
 
     (function($){
 
-//        $.getJSON(dataUrl,successCallback,errorCallback);
 
         $.ajax({
             url: dataUrl,
@@ -95,6 +101,7 @@
             addTitle(data);
             addArticleConten(data);
             addArticleFoot(data);
+            $("#loading").hide();
         }
 
         function addTitle(data){
@@ -132,11 +139,15 @@
                         +"<span style='float: right'>下一篇：<span class='next'><a href="+data.next+">"+data.nextContent+"</a></span></span>"
                         +"</div>";
             $("#article-foot").append(keyHtml);
+            $("#loading").hide();
+            $('body').removeClass('blur-body');
         }
 
         function errorCallback(){
             $("#title").append("<h3 class='text-center'></h3><h5></h5>");
-            $("#article-content").append("<h1 class='text-center'>文章没有找到!</h1>")
+            $("#article-content").append("<h1 class='text-center'>文章没有找到!</h1>");
+            $("#loading").hide();
+            $('body').removeClass('blur-body');
         }
 
 

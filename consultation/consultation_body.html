@@ -103,8 +103,12 @@
                             + "</div></div>";
                 }
             $(tabId).append(ht);
+            $("#loading").hide();
+            $('body').removeClass('blur-body');
         },function(){
             alert("出错了");
+            $("#loading").hide();
+            $('body').removeClass('blur-body');
         });
 
         function subString(text){
