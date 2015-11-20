@@ -27,10 +27,10 @@
 }
 .slider .slider-pointer li:hover {
     cursor: pointer;
-    background-color: rgb(73,74,75);
+    background-color: rgb(254,115,22);
 }
 .slider .slider-pointer li.active {
-    background-color: rgb(73,74,75);
+    background-color: rgb(254,115,22);
 }
 .slider .slider-inner {
     width: 100%;
@@ -67,7 +67,7 @@
 }
 .slider .slider-control:hover {
     opacity: 0.65;
-    background-color: rgb(73,74,75);
+    background-color: rgb(254,115,22);
     color: #fff;
 }
 .slider .slider-control:active {
