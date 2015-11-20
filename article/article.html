@@ -17,7 +17,7 @@
             var r = window.location.search.substr(1).match(reg);  //匹配目标参数
             if (r != null) return unescape(r[2]); return null; //返回参数值
         }
-        var dataUrl = "/XHL/data/"+getUrlParam("type")+"/"+getUrlParam("year")+"/"+getUrlParam("month")+"/"+getUrlParam("day")+"/"+getUrlParam("file")+".json";
+        var dataUrl = "/XHL/data/"+getUrlParam("type")+"/"+getUrlParam("year")+"/"+getUrlParam("month")+"/"+getUrlParam("day")+"/"+getUrlParam("file")+"/1.json";
 
         var _hmt = _hmt || [];
         (function() {
@@ -81,7 +81,15 @@
 
     (function($){
 
-        $.getJSON(dataUrl,successCallback,errorCallback);
+//        $.getJSON(dataUrl,successCallback,errorCallback);
+
+        $.ajax({
+            url: dataUrl,
+            type: "GET",
+            dataType: "json",
+            success: successCallback,
+            error:errorCallback
+        });
 
         function successCallback(data){
             addTitle(data);
@@ -120,14 +128,15 @@
                 keyHtml += "<a href='"+keywords[i].url+"'>"+keywords[i].content+"</a>";
             }
             keyHtml += "</div>";
-            keyHtml += "<div class='news-article'> <span>上一篇：<span class='pre'><a href="+data.pre+">上一篇</a></span></span>"
-                        +"<span style='float: right'>下一篇：<span class='next'><a href="+data.next+">下一篇</a></span></span>"
+            keyHtml += "<div class='news-article'> <span>上一篇：<span class='pre'><a href="+data.pre+">"+data.preContent+"</a></span></span>"
+                        +"<span style='float: right'>下一篇：<span class='next'><a href="+data.next+">"+data.nextContent+"</a></span></span>"
                         +"</div>";
             $("#article-foot").append(keyHtml);
         }
 
         function errorCallback(){
-            alert("错了!");
+            $("#title").append("<h3 class='text-center'></h3><h5></h5>");
+            $("#article-content").append("<h1 class='text-center'>文章没有找到!</h1>")
         }
 
 
