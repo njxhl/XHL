@@ -151,7 +151,7 @@ h1.title>span{
     background-color: rgb(254,115,22);
 }
 
-.nav ul>li>a{
+.nav ul{
     display: block;
 }
 
@@ -239,4 +239,18 @@ body.blur-body .blur{
     -ms-filter: blur(3px);
     filter: blur(3px);
     filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=false); /* IE6~IE9 */
+}
+
+li.bqlh>ul,li.hljd>ul{
+    position: relative;
+    left: 130px;
+    top: -25px;
+}
+
+li.bqlh>ul>li,li.hljd>ul>li{
+    display: none;
+}
+
+li.bqlh:hover>ul>li,li.hljd:hover>ul>li{
+    display: block;
 }
