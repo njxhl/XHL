@@ -1,13 +1,13 @@
 # 南京新货郎电子商务有限公司 官网
 
-## 1.data里面的dsj.json   gsdt.json   gsgg.json
+### 1.data里面的dsj.json   gsdt.json   gsgg.json
 
  - dsj.json 用于大事记列表页面的展示
  - gsdt.json 用于公司动态列表页面的展示
  - gsgg.json 用于公司公告列表页面的展示
  
  \* 列表页面json数据格式说明
- 
+
     {
         "title" : "这里是标题",
         "year" : "年",
@@ -17,9 +17,8 @@
         "previewImg":"这里是预览图片的路径",
         "content":"这里是文章的大致内容,或一部分文字内容"
     }
-    
 
-## 2.data/2015/11/13/1/1.json 表示data/2015/11/13/1日第一篇文章所在目录,文件名为1.json,其他图片为文章内引用图片
+### 2.data/2015/11/13/1/1.json 表示data/2015/11/13/1日第一篇文章所在目录,文件名为1.json,其他图片为文章内引用图片
 
 \* 文章页面json数据格式说明
 
