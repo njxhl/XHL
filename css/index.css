@@ -28,16 +28,16 @@
     margin: 0 auto;
 }
 
-div.introduction{
-    text-indent: 2em;
-    color: #666;
-    line-height: 2em;
-    padding: 2em 6em;
+.introduction,.production,.information,.about-index{
+    position: relative;
+    background-color: rgba(0,0,0,.1);
+    height:300px;
+    padding-bottom: 2em;
 }
 
 
-
-/*大事记*/
+/*
+!*大事记*!
 .bigEvent{
     width: 1100px;
     padding-left: 46px;
@@ -60,7 +60,7 @@ div.introduction{
 }
 
 
-/*大事记文字部分*/
+!*大事记文字部分*!
 .bigEvent>li>div{
     position: absolute;
     width: 200px;
@@ -70,7 +70,7 @@ div.introduction{
     z-index: 1;
 }
 
-/*三角符号*/
+!*三角符号*!
 .bigEvent>li>div>span{
     position: absolute;
     width: 0;
@@ -84,7 +84,7 @@ div.introduction{
 }
 
 
-/*大事记序号*/
+!*大事记序号*!
 .bigEvent>li>div>p.index{
     margin-top: 1em;
 }
@@ -97,7 +97,7 @@ div.introduction{
     border-top: 1px solid #fff;
 }
 
-/*大事记详情*/
+!*大事记详情*!
 .bigEvent .bigEvent-detail {
     padding: 0;
     font-size: 1em;
@@ -125,7 +125,7 @@ div.introduction{
     top: -10px;
 }
 
-/*大事件底部*/
+!*大事件底部*!
 .bigEvent-foot{
     line-height: 2em;
     font-size: .9em;
@@ -135,7 +135,7 @@ div.introduction{
     display: none;
 }
 
-/*大事件链接*/
+!*大事件链接*!
 .bigEvent-link{
     line-height: 2em;
     font-size: 1.5em;
@@ -150,9 +150,11 @@ div.introduction{
     color: #fff;
     font-size: 1.2em;
 }
+*/
 
 
-/*合作客户*/
+/*
+!*合作客户*!
 .heZuo{
     padding-top: 1.5em;
     padding-bottom: 5em;
@@ -175,7 +177,7 @@ div.introduction{
     border: 1px solid rgb(162,163,163);
 }
 
-/*公司动态*/
+!*公司动态*!
 .bg-triangle{
     background: url("../img/triangle.png") no-repeat bottom center;
 }
@@ -224,7 +226,7 @@ p.company-title>small{
 }
 
 .company-left-content>img{
-    /*vertical-align: middle;*/
+    !*vertical-align: middle;*!
     width: 110px;
     height: 80px;
 }
@@ -248,8 +250,8 @@ p.company-title>small{
 }
 
 .company-left-content>ul{
-    /*padding-top: 1.5em;*/
-    /*padding-left: 1em;*/
+    !*padding-top: 1.5em;*!
+    !*padding-left: 1em;*!
 }
 
 .company-left-content>ul>li{
@@ -283,6 +285,8 @@ p.company-title>small{
 .company-right-content p{
     color: #999;
 }
+*/
+/*
 
 .list>span{
     position: absolute;
@@ -304,7 +308,7 @@ p.company-title>small{
     height: 0;
     border-bottom: 22px solid rgb(126,156,215);
     border-right: 22px solid transparent;
-    /*border-left: 0px solid transparent;*/
+    !*border-left: 0px solid transparent;*!
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -322,7 +326,7 @@ p.company-title>small{
     height: 0;
     border-bottom: 22px solid rgb(165,195,109);
     border-right: 22px solid transparent;
-    /*border-left: 0px solid transparent;*/
+    !*border-left: 0px solid transparent;*!
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -340,12 +344,13 @@ p.company-title>small{
     height: 0;
     border-bottom: 22px solid rgb(239,184,117);
     border-right: 22px solid transparent;
-    /*border-left: 0px solid transparent;*/
+    !*border-left: 0px solid transparent;*!
     position: absolute;
     left: 50%;
     bottom: 0;
     z-index: 0;
 }
+*/
 
 /*.fixed{*/
     /*position: fixed;*/

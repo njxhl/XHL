@@ -1,0 +1,100 @@
+.company{
+    padding:2em 0;
+    position: relative;
+    height:auto;
+}
+
+.left-nav{
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    width: 200px;
+}
+
+.left-nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.left-nav ul li:last-child{
+
+    border-bottom: none;
+}
+
+.left-nav ul li{
+    position: relative;
+    line-height: 50px;
+    background-color: rgba(255,255,255,0);
+    border-bottom: 1px solid #333;
+    z-index: 2;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.left-nav ul li.active span{
+    left: -195px;
+}
+
+.left-nav ul li:hover span{
+    left:0;
+}
+
+.left-nav ul li span{
+    position: absolute;
+    display: block;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(254,115,22);
+    z-index: 0;
+    left:-200px;
+    -webkit-transition: left 1s ease;
+    -moz-transition: left 1s ease;
+    -ms-transition: left 1s ease;
+    -o-transition: left 1s ease;
+    transition: left 1s ease;
+}
+
+.left-nav ul li.active{
+    /*border-left: 3px solid rgb(254,115,22);*/
+}
+
+.left-nav ul li a{
+    padding: 0 20px;
+    display: block;
+    position: relative;
+    z-index: 3;
+    color: #000;
+}
+
+.right-content{
+    position: relative;
+    left: 230px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    width: 700px;
+    min-height: 400px;
+    padding:0 2em;
+}
+
+.right-content h1{
+    color: #789;
+    padding: 1em 0;
+} 
+
+.right-content .hr{
+    border-bottom: 2px dashed #789;
+    padding:.5em 1em;
+}
+
+.right-content p{
+    text-indent:2em;
+}
+
+.right-content p a{
+    color: blueviolet;
+}
+
+.right-content p a:hover{
+    text-decoration: underline;
+}
