@@ -20,7 +20,7 @@
         })();
         $(document).ready(function(){
             $("header").load("/XHL/comm/header.html",function(){
-                $("#product").addClass("active").siblings().removeClass('active');
+                $("ul.list-item-horizontal>li").removeClass('active');
             });
             $("footer").load("/XHL/comm/footer.html");
         });
@@ -29,7 +29,7 @@
 <header></header>
 
 <div class="w-1100">
-    <p style="margin-top: 2em;margin-bottom:10em;font-size: 30px">正在开发中，敬请期待……</p>
+    <p style="margin-top: 2em;margin-bottom:10em;font-size: 30px">正在建设中，敬请期待……</p>
 </div>
 
 <footer></footer>
