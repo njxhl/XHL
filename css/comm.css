@@ -70,6 +70,26 @@ img{
     width: 700px !important;
 }
 
+
+.w-33percent{
+    width: 33.3333%;
+    height: 100%;
+    float: left;
+}
+
+.w-312percent{
+    width: 38.2%;
+    height: 100%;
+    float: left;
+}
+
+
+.w-618percent{
+    width: 61.8%;
+    height: 100%;
+    float: left;
+}
+
 .color-gray{
     color: rgb(147,148,149);
 }
