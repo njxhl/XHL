@@ -84,7 +84,7 @@
                 </li>
                 <li class="menu-2"><a href="/XHL/school/school.html">商学院</a></li>
                 <li class="menu-2 active">
-                    <a href="/XHL/about/about.html">关于我们</a>
+                    <a href="/XHL/about/teamIntro.html">关于我们</a>
                     <ul>
                         <li><a href="/XHL/about/teamIntro.html">团队介绍</a></li>
                         <li><a href="/XHL/about/join.html">加入我们</a></li>
@@ -130,12 +130,12 @@
     </div>
     <div class="right-content">
         <div class="introduction">
-            <h1 class="text-center"><span class="hr">联系我们</span></h1>
-            <p>南京新货郎电子商务有限公司(<a href="http://www.xhl.cn.com">www.xhl.cn.com</a>)，组建于2014年3月，公司总部位于南京市雨花台区“中国(南京)软件谷·垠坤大数据产业基地”。</p>
-            <p>“新货郎”是一家利用互联网科技，服务传统快消品行业流转渠道的创新型企业，“新货郎”专注快消品传统渠道互联网营运平台打造。</p>
-            <p>公司拥有强大的业务管理和技术开发团队，核心业务管理团队均有国内或国际一线品牌快消品的业务管理经验；核心技术研发团队均是来自知名电商网站或科研院所的资深研发人员。</p>
-            <p>“新货郎”旗下现有“<a href="/XHL/product/bqlhAbout.html">百企力合</a>”“<a href="/XHL/product/hljdAbout.html">货郎即达</a></li>”两大营运平台。
-            </p>
+                <h1>联系我们</h1>
+                <p>咨询电话：025-52356777</p>
+                <p>客服电话：400-870-8089</p>
+                <p>企业邮箱：<a href="mailto:business@xhl.cn.com">business@xhl.cn.com</a></p>
+                <p>总部地址：<a href="http://map.baidu.com/?newmap=1&s=inf%26uid%3D735cc9ec00685d05400245e3%26wd%3D新货郎电子商务有限公司%26all%3D1%26c%3D315&from=alamap&tpl=map_singlepoint" target="_blank">南京市软件大道180号大数据产业园7栋105室</a></p>
+                <div id="map" style="width: 100%;height: 400px;border: 1px solid #000;"></div>
         </div>
     </div>
 </div>
@@ -163,5 +163,45 @@
     </div>
 
 </footer>
+
+<script type="text/javascript">
+
+    //百度地图API功能
+    function loadJScript() {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "http://api.map.baidu.com/api?v=2.0&ak=L2PR8bfq5quZAst5eNLKp3VS&callback=init";
+        document.body.appendChild(script);
+    }
+    function init() {
+        var map = new BMap.Map("map");
+        map.centerAndZoom(new BMap.Point(118.757844, 31.977885), 15);
+
+        var top_left_control = new BMap.ScaleControl({
+            anchor : BMAP_ANCHOR_TOP_LEFT
+        });// 左上角，添加比例尺
+        var top_left_navigation = new BMap.NavigationControl(); //左上角，添加默认缩放平移控件
+        /* var top_right_navigation = new BMap.NavigationControl({
+         anchor : BMAP_ANCHOR_TOP_RIGHT,
+         type : BMAP_NAVIGATION_CONTROL_SMALL
+         }); //右上角，仅包含平移和缩放按钮 */
+        /*缩放控件type有四种类型:
+         BMAP_NAVIGATION_CONTROL_SMALL：仅包含平移和缩放按钮；BMAP_NAVIGATION_CONTROL_PAN:仅包含平移按钮；BMAP_NAVIGATION_CONTROL_ZOOM：仅包含缩放按钮*/
+        map.addControl(top_left_control);
+        map.addControl(top_left_navigation);
+        /* map.addControl(top_right_navigation); */
+
+        var local = new BMap.LocalSearch(map, {
+            renderOptions : {
+                map : map
+            }
+        });
+        local.search("南京新货郎电子商务有限公司");
+    }
+    window.onload = loadJScript; //异步加载地图
+
+
+
+</script>
 </body>
 </html>
