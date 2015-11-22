@@ -39,7 +39,7 @@
     display: block;
     height: 50px;
     width: 200px;
-    background-color: rgb(254,115,22);
+    background-color: rgba(254,115,22,.5);
     z-index: 0;
     left:-200px;
     -webkit-transition: left 1s ease-in-out;
@@ -49,18 +49,19 @@
     transition: left 1s ease-in-out;
 }
 
-.left-nav ul li.active{
+.left-nav ul li.active a{
+    color: rgba(254,115,22,.9);
     /*border-left: 3px solid rgb(254,115,22);*/
 }
 
 .left-nav ul li a{
-    border-bottom: 1px dashed #333;
+    border-bottom: 1px solid #ddd;
     margin: 0 20px;
     padding-left:10px;
     display: block;
     position: relative;
     z-index: 3;
-    color: #000;
+    color: #555;
 }
 
 .left-nav ul li a.last{
@@ -73,7 +74,7 @@
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     width: 700px;
-    min-height: 400px;
+    min-height: 600px;
     padding:1em 2em;
 }
 

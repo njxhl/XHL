@@ -185,7 +185,7 @@ h1.title>span{
     height:100px;
 }
 
-#product ul,#consultation ul,#intro ul{
+.menu-2 ul{
     z-index: 9999;
     list-style: none;
     position: relative;
@@ -194,16 +194,16 @@ h1.title>span{
     padding: 0;
 }
 
-#product ul>li,#consultation ul>li,#intro ul>li{
+.menu-2 ul>li{
     background: rgb(2,107,221);
     border-top: 1px solid #fff;
 }
 
-#product:hover ul,#consultation:hover ul,#intro:hover ul{
+.menu-2:hover ul{
     display: block;
 }
 
-#product ul>li:hover,#consultation ul>li:hover,#intro ul>li:hover {
+.menu-2 ul>li:hover{
     background-color: rgb(254,115,22);
 }
 
@@ -244,16 +244,16 @@ h1.title>span{
     margin-left: 5%;
 }
 
-li.bqlh>ul,li.hljd>ul,li.other>ul{
-    position: relative;
-    left: 130px;
-    top: -35px;;
-}
+/*li.bqlh>ul,li.hljd>ul,li.other>ul{*/
+    /*position: relative;*/
+    /*left: 130px;*/
+    /*top: -35px;;*/
+/*}*/
 
-li.bqlh>ul>li,li.hljd>ul>li,li.other>ul>li{
-    display: none;
-}
+/*li.bqlh>ul>li,li.hljd>ul>li,li.other>ul>li{*/
+    /*display: none;*/
+/*}*/
 
-li.bqlh:hover>ul>li,li.hljd:hover>ul>li,li.other:hover>ul>li{
-    display: block;
-}
+/*li.bqlh:hover>ul>li,li.hljd:hover>ul>li,li.other:hover>ul>li{*/
+    /*display: block;*/
+/*}*/
