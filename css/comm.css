@@ -254,11 +254,11 @@ footer{
 }
 
 .copyright p,.copyright a{
-    color: #fff;
+    color: rgba(255,255,255,.7);
 }
 
 .copyright a:hover{
-    color: #333;
+    color: rgba(255,255,255,.8);
     text-decoration: underline;
 }
 
