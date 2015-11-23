@@ -66,31 +66,75 @@
 .png-1{
     top:-3px;
     margin-left: -25px;
-    background: url("../img/index_bg1/1_1.png") no-repeat center center;
 }
 
-.png-1:hover{
-    background: url("../img/index_bg1/1.png") no-repeat center center;
+.png-1 img{
+    position: absolute;
+    float: left;
+    left:28px;
+    top:10px;
+}
+
+.png-1:hover .png-1-1{
+    display: block;
+}
+
+.png-1 .png-1-2{
+    display: block;
+}
+
+.png-1:hover .png-1-2{
+    display: none;
 }
 
 .png-2{
     top:-3px;
     margin-left: 300px;
-    background: url("../img/index_bg1/2_1.png") no-repeat center center;
 }
 
-.png-2:hover{
-    background: url("../img/index_bg1/2.png") no-repeat center center;
+.png-2 img{
+    position: absolute;
+    float: left;
+    left:30px;
+    top:10px;
 }
+
+.png-2 .png-2-1{
+    display: block;
+}
+
+.png-2:hover .png-2-1{
+    display: block;
+}
+
+.png-2:hover .png-2-2{
+    display: none;
+}
+
+
 
 .png-3{
     top:-3px;
     margin-left: 620px;
-    background: url("../img/index_bg1/3_1.png") no-repeat center center;
+
 }
 
-.png-3:hover{
-    background: url("../img/index_bg1/3.png") no-repeat center center;
+.png-3 img{
+    position: absolute;
+    top:9px;
+    left:28px;
+}
+
+.png-3{
+    display: block;
+}
+
+.png-3:hover .png-3-1{
+    display: block;
+}
+
+.png-3:hover .png-3-2{
+    display: none;
 }
 
 .png-1 p,.png-2 p,.png-3 p{
