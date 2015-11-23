@@ -238,7 +238,7 @@ h1.title>span{
 /*底部*/
 footer{
     min-width: 1100px;
-    background-color: rgb(73,74,75);
+    background-color: rgb(230,230,230);
     height: 230px;
     padding-top: 30px;
 
@@ -254,11 +254,11 @@ footer{
 }
 
 .copyright p,.copyright a{
-    color: #aaa;
+    color: #666;
 }
 
 .copyright a:hover{
-    color: #ddd;
+    color: #333;
     text-decoration: underline;
 }
 

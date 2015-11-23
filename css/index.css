@@ -143,11 +143,12 @@
 
 .joinus{
     position: relative;
+    max-height: 300px;
 }
 
 .joinus img{
     width: 100%;
-    max-height: 270px;
+    height: 300px;
 }
 
 .joinus h1{
