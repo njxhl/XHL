@@ -103,6 +103,14 @@
     margin-top: 0;
 }
 
+.png-1 p,.png-2 p,.png-3 p{
+    color: #444;
+}
+
+.png-1:hover p,.png-2:hover p,.png-3:hover p{
+    color:rgb(2,107,221);
+}
+
 
 
 .blur{
