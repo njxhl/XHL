@@ -40,35 +40,69 @@
 .introduction{
     background: url("../img/index_bg1/index_bg1.jpg") no-repeat center center;
     background-size: cover;
+    height: 400px;
+}
+
+
+.introduction .bg-1{
+    background: url("../img/index_bg1/index_bg1-1.png") no-repeat center center;
+    background-size: cover;
+    height: 270px;
+    margin-top: 40px;
 }
 
 .bg1-1{
-    width: 180px;
-    height:180px;
-    background: url("../img/index_bg1/1.png") no-repeat center center;
-    background-size: cover;
-    position: absolute;
-    left:50%;
-    margin-left: -320px;
-    top:50%;
-    margin-top:-90px;
+    margin-top: 60px;
 }
 
-/*.introduction div{*/
-    /*-webkit-transition: all 1s;*/
-    /*-moz-transition: all 1s;*/
-    /*-ms-transition: all 1s;*/
-    /*-o-transition: all 1s;*/
-    /*transition: all 1s;*/
-/*}*/
+.png-1,.png-2,.png-3{
+    width: 270px;
+    height: 256px;
+    position: absolute;
+}
 
-/*.introduction div:hover{*/
-    /*-webkit-transform: rotateY(-90deg);*/
-    /*-moz-transform: rotateY(-90deg);*/
-    /*-ms-transform: rotateY(-90deg);*/
-    /*-o-transform: rotateY(-90deg);*/
-    /*transform: rotateY(-90deg);*/
-/*}*/
+.png-1{
+    top:-3px;
+    margin-left: -20px;
+    background: url("../img/index_bg1/1_1.png") no-repeat center center;
+}
+
+.png-1:hover{
+    background: url("../img/index_bg1/1.png") no-repeat center center;
+}
+
+.png-2{
+    top:-5px;
+    margin-left: 300px;
+    background: url("../img/index_bg1/2_1.png") no-repeat center center;
+}
+
+.png-2:hover{
+    background: url("../img/index_bg1/2.png") no-repeat center center;
+}
+
+.png-3{
+    top:-2px;
+    margin-left: 620px;
+    background: url("../img/index_bg1/3_1.png") no-repeat center center;
+}
+
+.png-3:hover{
+    background: url("../img/index_bg1/3.png") no-repeat center center;
+}
+
+.png-1 p,.png-2 p,.png-3 p{
+    padding-top: .6em;
+    font-size: 1.2em;
+    margin-top: 240px;
+}
+
+.png-1 .text-en,.png-2 .text-en,.png-3 .text-en{
+    font-size: .8em;
+    margin-top: 0;
+}
+
+
 
 .blur{
     -webkit-filter: blur(2px); /* Chrome, Opera */
