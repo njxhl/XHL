@@ -44,7 +44,7 @@
     transition: all 1s;
 }
 
-.introduction:hover div{
+.introduction div:hover{
     -webkit-transform: rotateY(-90deg);
     -moz-transform: rotateY(-90deg);
     -ms-transform: rotateY(-90deg);
