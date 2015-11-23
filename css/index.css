@@ -130,9 +130,14 @@
 
 
 .joinus{
-    height:265px;
+    height:265px !important;
     position: relative;
 }
+
+.joinus img{
+    width: 100%;
+}
+
 .joinus h1{
     margin: 0;
     left:50%;
@@ -152,11 +157,11 @@
 
 .joinus p span{
     font-size: 4em;
-    -webkit-transition: transform 1s;
-    -moz-transition: transform 1s;
-    -ms-transition: transform 1s;
-    -o-transition: transform 1s;
-    transition: transform 1s;
+    -webkit-transition: transform .5s ease-in-out;
+    -moz-transition: transform .5s ease-in-out;
+    -ms-transition: transform .5s ease-in-out;
+    -o-transition: transform .5s ease-in-out;
+    transition: transform .5s ease-in-out;
     display: inline-block;
 }
 
