@@ -16,7 +16,8 @@
 }
 
 .content p{
-    padding: .3em 0;
+    margin: 0;
+    line-height: 1.3;
 }
 
 .content div.box{
@@ -36,21 +37,38 @@
     height:300px;
 }
 
-.introduction div{
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
+.introduction{
+    background: url("../img/index_bg1/index_bg1.jpg") no-repeat center center;
+    background-size: cover;
 }
 
-.introduction div:hover{
-    -webkit-transform: rotateY(-90deg);
-    -moz-transform: rotateY(-90deg);
-    -ms-transform: rotateY(-90deg);
-    -o-transform: rotateY(-90deg);
-    transform: rotateY(-90deg);
+.bg1-1{
+    width: 180px;
+    height:180px;
+    background: url("../img/index_bg1/1.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    left:50%;
+    margin-left: -320px;
+    top:50%;
+    margin-top:-90px;
 }
+
+/*.introduction div{*/
+    /*-webkit-transition: all 1s;*/
+    /*-moz-transition: all 1s;*/
+    /*-ms-transition: all 1s;*/
+    /*-o-transition: all 1s;*/
+    /*transition: all 1s;*/
+/*}*/
+
+/*.introduction div:hover{*/
+    /*-webkit-transform: rotateY(-90deg);*/
+    /*-moz-transform: rotateY(-90deg);*/
+    /*-ms-transform: rotateY(-90deg);*/
+    /*-o-transform: rotateY(-90deg);*/
+    /*transform: rotateY(-90deg);*/
+/*}*/
 
 .blur{
     -webkit-filter: blur(2px); /* Chrome, Opera */
