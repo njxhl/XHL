@@ -220,7 +220,7 @@ h1.title>span{
 
 .menu-2 ul>li{
     background: rgb(2,107,221);
-    border-top: 1px solid #fff;
+    /*border-top: 1px solid #fff;*/
 }
 
 .menu-2:hover ul{
