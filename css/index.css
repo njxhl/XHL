@@ -131,3 +131,44 @@
     left:0;
     color: #ffffff;
 }
+
+
+.joinus{
+    position: relative;
+}
+.joinus h1{
+    margin: 0;
+    left:50%;
+    margin-left: -2em;
+    position: absolute;
+    top:0;
+    font-size: 4em;
+}
+
+.joinus p{
+    position: absolute;
+    color: #fff;
+    top:6em;
+    left: 50%;
+    margin-left: -2em;
+}
+
+.joinus p span{
+    font-size: 4em;
+}
+
+.joinus div{
+    position: absolute;
+    top:12em;
+    left:50%;
+    margin-left: -12.5em;
+}
+
+.joinus div a{
+    margin-right: 4em;
+    font-size: 1.5em;
+    display: inline-block;
+    padding: .1em 1em;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 3px;
+}

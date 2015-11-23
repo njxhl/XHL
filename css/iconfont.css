@@ -14,11 +14,12 @@
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-gonggao:before { content: "\f0006"; }
-.icon-gongsidongtai:before { content: "\e600"; }
-.icon-gongsidsj:before { content: "\e629"; }
-.icon-dianhua:before { content: "\e62b"; }
-.icon-zuo:before { content: "\e604"; }
-.icon-you:before { content: "\e603"; }
-.icon-weixin:before { content: "\e7f0"; }
 
+.icon-you:before { content: "\e600"; }
+.icon-zuo:before { content: "\e601"; }
+.icon-gonggao:before { content: "\e602"; }
+.icon-jiaru:before { content: "\e607"; }
+.icon-dianhua:before { content: "\e603"; }
+.icon-weixin:before { content: "\e604"; }
+.icon-gongsidongtai:before { content: "\e605"; }
+.icon-gongsidsj:before { content: "\e606"; }
