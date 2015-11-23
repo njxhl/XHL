@@ -137,33 +137,24 @@
     width: 100%;
     height:100%;
     z-index: 100;
-    background-color: rgba(0,0,0,.2);
-}
-
-.index-school img{
-    -webkit-filter: blur(1px); /* Chrome, Opera */
-    -moz-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(1px);
-    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=1, MakeShadow=false); /* IE6~IE9 */
 }
 
 
 
 .joinus{
-    margin-top: 1em;
-    height:265px !important;
     position: relative;
 }
 
 .joinus img{
     width: 100%;
+    max-height: 270px;
 }
 
 .joinus h1{
     margin: 0;
     left:50%;
     margin-left: -2em;
+    margin-top: .2em;
     position: absolute;
     top:0;
     font-size: 4em;
@@ -172,7 +163,7 @@
 .joinus p{
     position: absolute;
     color: #fff;
-    top:6em;
+    top:6.2em;
     left: 50%;
     margin-left: -2em;
 }
