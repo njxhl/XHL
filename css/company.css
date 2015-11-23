@@ -12,7 +12,7 @@
 }
 
 .left-nav ul{
-    padding: 0;
+    padding: .5em 0;
     margin: 0;
     list-style: none;
 }
@@ -55,7 +55,7 @@
 }
 
 .left-nav ul li a{
-    border-bottom: 1px solid #ddd;
+    /*border-bottom: 1px solid #ddd;*/
     margin: 0 20px;
     padding-left:10px;
     display: block;

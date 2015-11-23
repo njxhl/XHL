@@ -1,22 +1,22 @@
 
-<img src="/XHL/img/1.jpg" style="width: 100%">
+<img src="../img/1.jpg" style="width: 100%">
 <!--<h1 class="title text-center color-orange"><span>公司资讯</span></h1>-->
 <div class="tabs">
     <ul>
         <li>
-            <a href="/XHL/consultation/dsj/dsj.html">
+            <a href="../consultation/dsj/dsj.html">
                 <p class="icon iconfont icon-gongsidsj"></p>
                 <p>大事记</p>
             </a>
         </li>
         <li>
-            <a href="/XHL/consultation/gsdt/gsdt.html">
+            <a href="../consultation/gsdt/gsdt.html">
                 <p class="icon iconfont icon-gongsidongtai"></p>
                 <p>公司动态</p>
             </a>
         </li>
         <li>
-            <a href="/XHL/consultation/gsgg/gsgg.html">
+            <a href="../consultation/gsgg/gsgg.html">
                 <p class="icon iconfont icon-gonggao"></p>
                 <p>网站公告</p>
             </a>
@@ -49,7 +49,7 @@
                     else{
                         ht += "<div>";
                     }
-                    var articleUrl = "/XHL/article/article.html?type=dsj&year="+data[i].year+"&month="+data[i].month+"&day="+data[i].day+"&file="+data[i].articleUrl;
+                    var articleUrl = "../article/article.html?type=dsj&year="+data[i].year+"&month="+data[i].month+"&day="+data[i].day+"&file="+data[i].articleUrl;
                     ht += "<div class='img-left'><img src='"+data[i].previewImg+"'/></div><div class='newRight'>"
                             + "<h3>"+data[i].title+"</h3>"
                             + "<p class='newDetail'>"+subString(data[i].content)+"</p>"
