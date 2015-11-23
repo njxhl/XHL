@@ -34,7 +34,22 @@
     position: relative;
     background-color: rgba(0,0,0,.1);
     height:300px;
-    /*padding-bottom: 2em;*/
+}
+
+.introduction div{
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.introduction:hover div{
+    -webkit-transform: rotateY(-90deg);
+    -moz-transform: rotateY(-90deg);
+    -ms-transform: rotateY(-90deg);
+    -o-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
 }
 
 .blur{
