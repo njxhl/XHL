@@ -128,12 +128,13 @@
             <li style="display: none;clear: both"></li>
         </ul>
         <div class="tabs-content">
-            <div id="tab1">
-                <span></span>
-            </div>
-            <div id="tab2">
-                <span></span>
-            </div>
+            <img src="../../product/logo.png" alt="" style="margin-top: 50px">
+            <!--<div id="tab1">-->
+                <!--<span></span>-->
+            <!--</div>-->
+            <!--<div id="tab2">-->
+                <!--<span></span>-->
+            <!--</div>-->
             <div id="tab3" class="active">
                 <span></span>
             </div>
@@ -147,7 +148,7 @@
             $.getJSON(dataUrl,function(data){
 
                 if(data.length==0){
-                    $(tabId).append("<h1 class='text-center'>暂无……</h1>");
+//                    $(tabId).append("<h1 class='text-center'>暂无……</h1>");
                     return ;
                 }
 
