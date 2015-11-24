@@ -204,10 +204,10 @@
     margin: 0;
     left:50%;
     margin-left: -2em;
-    margin-top: .2em;
+    margin-top: .5em;
     position: absolute;
     top:0;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .joinus p{
@@ -215,11 +215,11 @@
     color: #fff;
     top:6.2em;
     left: 50%;
-    margin-left: -2em;
+    margin-left: -1.5em;
 }
 
 .joinus p span{
-    font-size: 4em;
+    font-size: 3em;
     -webkit-transition: transform .5s ease-in-out;
     -moz-transition: transform .5s ease-in-out;
     -ms-transition: transform .5s ease-in-out;
