@@ -208,6 +208,10 @@
     position: relative;
 }
 
+.consultation .active{
+    color: rgb(254,115,22);
+}
+
 .consultation-tab-1,.consultation-tab-2,.consultation-tab-3{
     font-family: "Microsoft YaHei", sans-serif;
     position: absolute;
@@ -216,6 +220,7 @@
     width: 300px;
     color: #24aaff;
     font-size: 46px;
+    cursor: pointer;
 }
 
 .consultation-tab-2{
@@ -224,6 +229,10 @@
 
 .consultation-tab-3{
     margin-left:600px;
+}
+
+.consultation2{
+    display: none;
 }
 
 .consultation-2{
@@ -264,7 +273,7 @@
 
 .consultation-span-1{
     left:20%;
-    top:80px;
+    top:70px;
 }
 
 .consultation-span-2{
@@ -332,7 +341,6 @@
     bottom: 1em;
     color: #fff;
     font-size: 1.5em;
-
 }
 
 

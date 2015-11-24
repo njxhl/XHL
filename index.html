@@ -179,23 +179,21 @@
     <div class="consultation" id="consultation">
         <img src="./img/consultation/consultation_bg.jpg" alt="">
         <div class="w-900">
-            <div class="w-33percent color-orange text-center consultation-tab-1">
-                <a href="#" class="consultation-content-1">
-                    <div>大事记</div>
-                </a>
-            </div>
-            <div class="w-33percent color-orange text-center consultation-tab-2">
-                <div>公司动态</div>
-            </div>
-            <div class="w-33percent color-orange text-center consultation-tab-3">
-                <div>合作伙伴</div>
-            </div>
+                <div class="w-33percent color-orange text-center consultation-tab-1" id="consultation1">
+                    <span>大事记</span>
+                </div>
+                <div id="consultation2"  class="w-33percent color-orange text-center consultation-tab-2">
+                    <span>公司动态</span>
+                </div>
+                <div id="consultation3" class="w-33percent color-orange text-center consultation-tab-3">
+                    <span>合作伙伴</span>
+                </div>
         </div>
 
-        <div>
+        <div class="consultation2">
             <div class="consultation-2">
                 <div class="w-900" style="position: relative;">
-                    <img src="./img/consultation/consultation_icon.png" alt="">
+                    <img src="./img/consultation/consultation_icon.png" id="consultation_icon">
                 </div>
             </div>
             <div class="consultation-2-content">
@@ -242,6 +240,12 @@
                             </span>
                         </a>
                     <!--</div>-->
+                </div>
+                <div class="consultation-2-content-2">
+
+                </div>
+                <div class="consultation-2-content-3">
+
                 </div>
             </div>
         </div>
@@ -290,7 +294,34 @@
     <script>
         jQuery(document).ready(function($) {
             $("#slider").Slider();
+
+                $('#consultation1').hover(function(){
+                    $(this).addClass('active').siblings().removeClass('active');
+                    $(".consultation-2-content-1").css("display",'block');
+                    $(".consultation-2-content-2").css("display",'none');
+                    $(".consultation-2-content-3").css("display",'none');
+                    $("#consultation_icon").css("left","150px");
+                    $(".consultation2").css("display","block");
+                });
+                $('#consultation2').hover(function(){
+                    $(this).addClass('active').siblings().removeClass('active');
+                    $(".consultation-2-content-2").css("display",'block');
+                    $(".consultation-2-content-1").css("display",'none');
+                    $(".consultation-2-content-3").css("display",'none');
+                    $("#consultation_icon").css("left","450px");
+                    $(".consultation2").css("display","block");
+                });
+                $('#consultation3').hover(function(){
+                $(this).addClass('active').siblings().removeClass('active');
+                    $(".consultation-2-content-3").css("display",'block');
+                    $(".consultation-2-content-2").css("display",'none');
+                    $(".consultation-2-content-1").css("display",'none');
+                    $("#consultation_icon").css("left","750px");
+                    $(".consultation2").css("display","block");
+            });
         });
+
+
     </script>
 </body>
 </html>
