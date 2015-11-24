@@ -1,0 +1,28 @@
+{
+  "baseUrl":"../data/dsj/2015/6/1",
+  "title":"“新货郎”组建筹备及项目上马会在南京召开",
+  "time":"2015年6月",
+  "author":"新货郎",
+  "content":
+  [
+    {
+      "type":"p",
+      "content":"“新货郎”组建筹备及项目上马会在南京召开"
+    }
+  ],
+  "keywords":
+  [
+    {
+      "content" : "筹备",
+      "url":""
+    },
+    {
+      "content" : "项目上马",
+      "url":""
+    }
+  ],
+  "pre":"./article.html?type=dsj&year=2015&month=5&file=1",
+  "preContent":"“新货郎”协议入住南京软件谷大数据产业基地。",
+  "next":"./article.html?type=dsj&year=2015&month=7&file=1",
+  "nextContent":"正式成立“南京新货郎电子商务有限公司”"
+}

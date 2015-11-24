@@ -276,6 +276,21 @@ footer{
     margin-left: 5%;
 }
 
+.copyright-end{
+    background-color: #ccc;
+    padding: .5em 0;
+    margin: 0;
+    text-align: center;
+}
+
+.copyright-end a{
+    color: #000;
+}
+
+.copyright-end a:hover{
+    text-decoration: underline;
+}
+
 /*li.bqlh>ul,li.hljd>ul,li.other>ul{*/
     /*position: relative;*/
     /*left: 130px;*/

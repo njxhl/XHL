@@ -88,7 +88,6 @@
                 // 控制事件
                 if (settings.pointerEvent == 'hover') {
                     $slider.find('.slider-pointer > li').mouseenter(function(event) {
-
                             sliderFun.sliderPlay($(this).index());
                     });
                 }else{

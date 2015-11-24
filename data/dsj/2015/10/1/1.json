@@ -1,0 +1,28 @@
+{
+  "baseUrl":"../data/dsj/2015/10/1",
+  "title":"“新货郎”与郑州世航之窗达成战略合作协议。",
+  "time":"2015年10月",
+  "author":"新货郎",
+  "content":
+  [
+    {
+      "type":"p",
+      "content":"“新货郎”与郑州世航之窗达成战略合作协议。"
+    }
+  ],
+  "keywords":
+  [
+    {
+      "content" : "世航之窗",
+      "url":""
+    },
+    {
+      "content" : "战略合作",
+      "url":""
+    }
+  ],
+  "pre":"./article.html?type=dsj&year=2015&month=9&file=1",
+  "preContent":"“百企力合”地推团队在试点城市进行地推工作。”",
+  "next":"./article.html?type=dsj&year=2015&month=11&file=1",
+  "nextContent":"“百企力合”开始全面上线测试。"
+}

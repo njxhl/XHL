@@ -1,0 +1,24 @@
+{
+  "baseUrl":"../data/dsj/2015/5/1",
+  "title":"“新货郎”协议入住南京软件谷大数据产业基地。",
+  "time":"2015年5月",
+  "author":"新货郎",
+  "content":
+  [
+    {
+      "type":"p",
+      "content":"“新货郎”协议入住南京软件谷大数据产业基地。"
+    }
+  ],
+  "keywords":
+  [
+    {
+      "content" : "入驻大数据",
+      "url":""
+    }
+  ],
+  "pre":"./article.html?type=dsj&year=2014&month=3&file=1",
+  "preContent":"新货郎”开始进行可行性认证，市场调研及人员储备。",
+  "next":"./article.html?type=dsj&year=2015&month=6&file=1",
+  "nextContent":"“新货郎”组建筹备及项目上马会在南京召开"
+}

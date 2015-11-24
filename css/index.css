@@ -64,15 +64,15 @@
 }
 
 .png-1{
-    top:-3px;
-    margin-left: -25px;
+    top: -13px;
+    margin-left: -32px;
 }
 
 .png-1 img{
     position: absolute;
     float: left;
-    left:28px;
-    top:10px;
+    left: 25px;
+    top: 10px;
 }
 
 .png-1:hover .png-1-1{
@@ -88,15 +88,15 @@
 }
 
 .png-2{
-    top:-3px;
-    margin-left: 300px;
+    top: -11px;
+    margin-left: 289px;
 }
 
 .png-2 img{
     position: absolute;
     float: left;
-    left:30px;
-    top:10px;
+    left: 25px;
+    top: 10px;
 }
 
 .png-2 .png-2-1{
@@ -114,15 +114,14 @@
 
 
 .png-3{
-    top:-3px;
-    margin-left: 620px;
-
+    top: -10px;
+    margin-left: 611px;
 }
 
 .png-3 img{
     position: absolute;
-    top:9px;
-    left:28px;
+    left: 25px;
+    top: 10px;
 }
 
 .png-3{
@@ -140,7 +139,7 @@
 .png-1 p,.png-2 p,.png-3 p{
     padding-top: .6em;
     font-size: 1.2em;
-    margin-top: 240px;
+    margin-top: 220px;
 }
 
 .png-1 .text-en,.png-2 .text-en,.png-3 .text-en{
@@ -150,46 +149,49 @@
 
 .png-1 p,.png-2 p,.png-3 p{
     color: #444;
+    top: 30px;
+    left: 6px;
+    position: relative;
 }
 
 
-.consultation{
+.product{
     position: relative;
     /*min-width: 1100px;*/
     /*height: 400px;*/
 }
 
-.consultation div img{
+.product div img{
     position: absolute;
 }
 
-.consultation-1{
+.product-1{
     
 }
 
-.consultation-1,.consultation-2,.consultation-3{
+.product-1,.product-2,.product-3{
     cursor: pointer;
     position: absolute;
-    top: 50px;
+    top: 70px;
 }
 
-.consultation-2{
+.product-2{
     margin-left: 320px;
 }
 
-.consultation-3{
+.product-3{
     margin-left: 640px;
 }
 
-.consultation-1-2,.consultation-2-2,.consultation-3-2{
+.product-1-2,.product-2-2,.product-3-2{
     display: none;
 }
 
-.consultation-1:hover .consultation-1-1,.consultation-2:hover .consultation-2-1,.consultation-3:hover .consultation-3-1{
+.product-1:hover .product-1-1,.product-2:hover .product-2-1,.product-3:hover .product-3-1{
     display: none;
 }
 
-.consultation-1:hover .consultation-1-2,.consultation-2:hover .consultation-2-2,.consultation-3:hover .consultation-3-2{
+.product-1:hover .product-1-2,.product-2:hover .product-2-2,.product-3:hover .product-3-2{
     display: block;
 }
 
@@ -213,6 +215,44 @@
     left:0;
     color: #ffffff;
 }
+
+.consultation{
+    position: relative;
+}
+
+.consultation-1{
+    position: absolute;
+    bottom:0;
+    left: -50px;
+}
+
+.consultation-1 span{
+    position: absolute;
+    font-size: 12px;
+}
+
+
+.consultation-span-1{
+    left:26%;
+    top:50%;
+    margin-left: -40px;
+    margin-top: -24px;
+}
+
+.consultation-span-2{
+    left:30%;
+    top:50%;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+
+.consultation-span-3{
+    left:25%;
+    top:60%;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+
 
 .index-school{
     position: relative;
@@ -244,7 +284,6 @@
 .joinus h1{
     font-weight:600;
     font-family: "Microsoft YaHei", sans-serif;
-    margin: 0;
     left:50%;
     margin-left: -2em;
     margin-top: .5em;
@@ -298,3 +337,4 @@
 .joinus div a:hover{
     background-color: rgba(255,255,255,.5);
 }
+

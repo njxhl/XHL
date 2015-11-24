@@ -1,0 +1,28 @@
+{
+  "baseUrl":"../data/dsj/2015/9/1",
+  "title":"试点城市第一批60家快消品经销商开始入驻“百企力合”。",
+  "time":"2015年9月",
+  "author":"新货郎",
+  "content":
+  [
+    {
+      "type":"p",
+      "content":"试点城市第一批60家快消品经销商开始入驻“百企力合”。"
+    }
+  ],
+  "keywords":
+  [
+    {
+      "content" : "第一批入驻",
+      "url":""
+    },
+    {
+      "content" : "百企力合",
+      "url":""
+    }
+  ],
+  "pre":"./article.html?type=dsj&year=2015&month=8&file=1",
+  "preContent":"“百企力合”地推团队在试点城市进行地推工作。”",
+  "next":"./article.html?type=dsj&year=2015&month=10&file=1",
+  "nextContent":"“新货郎”与郑州世航之窗达成战略合作协议。"
+}

@@ -1,0 +1,28 @@
+{
+  "baseUrl":"../data/dsj/2014/3/1",
+  "title":"“新货郎”开始进行可行性认证，市场调研及人员储备。",
+  "time":"2014年3月",
+  "author":"新货郎",
+  "content":
+  [
+    {
+      "type":"p",
+      "content":"“新货郎”开始进行可行性认证，市场调研及人员储备。"
+    }
+  ],
+  "keywords":
+  [
+    {
+      "content" : "新货郎",
+      "url":""
+    },
+    {
+      "content" : "人才储备",
+      "url":""
+    }
+  ],
+  "pre":"",
+  "preContent":"无",
+  "next":"./article.html?type=dsj&year=2015&month=5&file=1",
+  "nextContent":"“新货郎”协议入住南京软件谷大数据产业基地。"
+}
