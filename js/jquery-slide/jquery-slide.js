@@ -16,10 +16,10 @@
         var settings = $.extend({
             isAuto: true,
             transTime: 3000,
-            animateSpeed: 1000,
+            animateSpeed: 300,
             sliderMode: 'slide', //'slide | fade',
             pointerControl: true,
-            pointerEvent: 'click',//'hover' | 'click',
+            pointerEvent: 'hover',//'hover' | 'click',
             arrowControl: true,
         }, options);
         var interval;
@@ -29,6 +29,7 @@
         var sliderCount     = $sliderWrap.find('> .item').length;
         var sliderWidth     = $slider.width();
         var currentIndex    = 0;
+        var isHover         = false;
 
         var sliderFun = {
             controlInit: function() {
@@ -87,11 +88,12 @@
                 // 控制事件
                 if (settings.pointerEvent == 'hover') {
                     $slider.find('.slider-pointer > li').mouseenter(function(event) {
-                        sliderFun.sliderPlay($(this).index());
+
+                            sliderFun.sliderPlay($(this).index());
                     });
                 }else{
                     $slider.find('.slider-pointer > li').click(function(event) {
-                        sliderFun.sliderPlay($(this).index());
+                            sliderFun.sliderPlay($(this).index());
                     });
                 }
                 // 自动播放
