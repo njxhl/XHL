@@ -44,7 +44,7 @@
                             html += '<li></li>'
                         }
                     }
-                    html += '</ol>'
+                    html += '</ol>';
                     $slider.append(html);
                     // 指示器居中
                     var $pointer = $slider.find('.slider-pointer');
