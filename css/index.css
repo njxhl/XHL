@@ -245,6 +245,7 @@
 
 .consultation-2-content-1{
     position: absolute;
+    width: 100% !important;
 }
 
 .consultation-2 img{
@@ -257,9 +258,8 @@
 
 .consultation-span-1,.consultation-span-2,.consultation-span-3,.consultation-span-4,
 .consultation-span-5,.consultation-span-6,.consultation-span-7,.consultation-span-8{
-    position: relative;
+    position: absolute;
     color: #000;
-
 }
 
 .consultation-span-1{
@@ -268,37 +268,37 @@
 }
 
 .consultation-span-2{
-    left:22%;
+    left:27%;
     top:180px;
 }
 
 .consultation-span-3{
-    left:25%;
-    top:140px;
+    left:34%;
+    top:120px;
 }
 
 .consultation-span-4{
-    left:28%;
+    left:41%;
     top:60px;
 }
 
 .consultation-span-5{
-    left:30%;
-    top:150px;
+    left:48%;
+    top:170px;
 }
 
 .consultation-span-6{
-    left:32%;
-    top:210px;
+    left:55%;
+    top:220px;
 }
 
 .consultation-span-7{
-    left:35%;
+    left:62%;
     top:140px;
 }
 
 .consultation-span-8{
-    left:38%;
+    left:69%;
     top:60px;
 }
 
