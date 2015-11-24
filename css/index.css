@@ -234,6 +234,7 @@
     cursor: pointer;
 }
 
+
 .consultation-tab-2{
     margin-left:300px;
 }
@@ -242,9 +243,9 @@
     margin-left:600px;
 }
 
-.consultation2{
-    display: none;
-}
+/*.consultation2{*/
+    /*display: none;*/
+/*}*/
 
 .consultation-2{
     height: 30px;
@@ -261,6 +262,11 @@
     background-color: #f0f1f3;
     height: 300px;
     position: relative;
+    display: none;
+}
+
+#consultation_icon{
+    display: none;
 }
 
 .consultation-2-content-1{
