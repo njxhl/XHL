@@ -120,7 +120,7 @@
             <li>
                 <a href="../consultation/gsgg/gsgg.html">
                     <p class="icon iconfont icon-gonggao"></p>
-                    <p>网站公告</p>
+                    <p>合作伙伴</p>
                 </a>
             </li>
             <li style="display: none;clear: both"></li>
@@ -162,7 +162,9 @@
                             + "<h3>"+data[i].title+"</h3>"
                             + "<p class='newDetail'>"+subString(data[i].content)+"</p>"
                             + "<div class='newsBottom'><span class='time'>"+data[i].year+"年"+data[i].month+"月</span>"
-                            + "<a href='"+articleUrl+"'><span class='readAll'>阅读全文</span></a></div>"
+                            + "" +
+//                            "<a href='"+articleUrl+"'><span class='readAll'>阅读全文</span></a>" +
+                            "</div>"
                             + "</div></div>";
                 }
                 $(tabId).append(ht);
