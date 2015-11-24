@@ -153,6 +153,47 @@
 }
 
 
+.consultation{
+    position: relative;
+    /*min-width: 1100px;*/
+    /*height: 400px;*/
+}
+
+.consultation div img{
+    position: absolute;
+}
+
+.consultation-1{
+    
+}
+
+.consultation-1,.consultation-2,.consultation-3{
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+}
+
+.consultation-2{
+    margin-left: 320px;
+}
+
+.consultation-3{
+    margin-left: 640px;
+}
+
+.consultation-1-2,.consultation-2-2,.consultation-3-2{
+    display: none;
+}
+
+.consultation-1:hover .consultation-1-1,.consultation-2:hover .consultation-2-1,.consultation-3:hover .consultation-3-1{
+    display: none;
+}
+
+.consultation-1:hover .consultation-1-2,.consultation-2:hover .consultation-2-2,.consultation-3:hover .consultation-3-2{
+    display: block;
+}
+
+
 
 .blur{
     -webkit-filter: blur(2px); /* Chrome, Opera */
