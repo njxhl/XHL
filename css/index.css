@@ -31,14 +31,25 @@
     margin: 0 auto;
 }
 
-.introduction,.production,.information,.about-index{
+.introduction,.production,.information,.about-index,.consultation{
     position: relative;
     background-color: rgba(0,0,0,.1);
-    height:300px;
+    /*height:400px;*/
+}
+
+.consultation>img{
+    height:230px;
+    width: 100%;
 }
 
 .introduction{
     background: url("../img/index_bg1/index_bg1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}
+
+.product{
+    background: url("../img/product/product_bg.jpg") no-repeat center center;
     background-size: cover;
     height: 400px;
 }
@@ -246,9 +257,11 @@
     margin-left:600px;
 }
 
-/*.consultation2{*/
+.consultation2{
     /*display: none;*/
-/*}*/
+    position: relative;
+    top:0px;
+}
 
 .consultation-2{
     height: 30px;
