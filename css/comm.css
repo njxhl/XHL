@@ -284,10 +284,11 @@ footer{
 }
 
 .copyright-end a{
-    color: #24aaff;
+    color: #444;
 }
 
 .copyright-end a:hover{
+    color: #24aaff;
     text-decoration: underline;
 }
 
