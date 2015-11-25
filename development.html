@@ -21,12 +21,13 @@
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
-        $(document).ready(function(){
-            $("header").load("./comm/header.html",function(){
-                $("ul.list-item-horizontal>li").removeClass('active');
-            });
-            $("footer").load("./comm/footer.html");
-        });
+
+        (function(){
+            var bp = document.createElement('script');
+            bp.src = '//push.zhanzhang.baidu.com/push.js';
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
     </script>
 <body>
 <header>
@@ -38,14 +39,14 @@
                 <div class="float-right">
                     <ul class="list-item-horizontal">
                         <li>
-                    <span id="weiXinImg">
-                        <span class="iconfont icon-weixin color-gray"></span>
-                        <span class="color-gray">微信公众号</span>
-                        <div class="weiXinImg" title="微信号:baiqilihe">
-                            <!--<span class="color-orange">微信号:baiqilihe</span>-->
-                            <img src="./img/code.jpg" alt="微信二维码" style="border: 10px solid rgba(255,255,255,.5);">
-                        </div>
-                    </span>
+                            <span id="weiXinImg">
+                                <span class="iconfont icon-weixin color-gray"></span>
+                                <span class="color-gray">微信公众号</span>
+                                <div class="weiXinImg" title="微信号:baiqilihe">
+                                <!--<span class="color-orange">微信号:baiqilihe</span>-->
+                                <img src="./img/code.jpg" alt="微信二维码" style="border: 10px solid rgba(255,255,255,.5);">
+                            </div>
+                            </span>
                         </li>
                         <li style="margin-left:30px;">
                             <!--<span class="color-gray">电话</span>-->
