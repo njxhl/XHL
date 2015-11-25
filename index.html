@@ -312,7 +312,7 @@
                     $(".consultation-2-content-1").css("display",'block');
                     $(".consultation-2-content-2").css("display",'none');
                     $(".consultation-2-content-3").css("display",'none');
-                    $("#consultation_icon").css({"left":"150px","display":"block"});
+                    $("#consultation_icon").css({"display":"block"}).animate({"left":"150px"},100);
                     $(".consultation-2-content").css("display","block");
 
                 });
@@ -321,7 +321,8 @@
                     $(".consultation-2-content-2").css("display",'block');
                     $(".consultation-2-content-1").css("display",'none');
                     $(".consultation-2-content-3").css("display",'none');
-                    $("#consultation_icon").css({"left":"450px","display":"block"});
+//                    $("#consultation_icon").css({"left":"450px","display":"block"});
+                    $("#consultation_icon").css({"display":"block"}).animate({"left":"450px"},100);
                     $(".consultation-2-content").css("display","block");
                 });
                 $('#consultation3').hover(function(){
@@ -329,7 +330,8 @@
                     $(".consultation-2-content-3").css("display",'block');
                     $(".consultation-2-content-2").css("display",'none');
                     $(".consultation-2-content-1").css("display",'none');
-                    $("#consultation_icon").css({"left":"750px","display":"block"});
+//                    $("#consultation_icon").css({"left":"750px","display":"block"});
+                    $("#consultation_icon").css({"display":"block"}).animate({"left":"750px"},100);
                     $(".consultation-2-content").css("display","block");
             });
         });
