@@ -102,6 +102,6 @@ hr{
     background-color: rgb(100, 100, 100);
 }
 
-#register:hover ul{
+.register:hover ul{
     display: block;
 }
