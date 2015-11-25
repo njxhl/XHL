@@ -261,7 +261,7 @@
 .consultation2{
     /*display: none;*/
     position: relative;
-    top:0px;
+    top:0;
 }
 
 .consultation-2{
@@ -305,7 +305,7 @@
     position: absolute;
     color: #000;
     padding: 3px 10px;
-    background: #ccc;
+    background: #DCDFE0;
 }
 
 .consultation-span-1{
@@ -359,6 +359,7 @@
 
 .consultation-span:hover{
     color: #00b7ee;
+    background: #ccc;
 }
 
 .consultation-span:hover span{
