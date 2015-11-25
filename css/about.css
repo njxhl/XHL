@@ -64,6 +64,11 @@ hr{
     color: #fff;
     background-color: rgb(193,194,195);
     border-radius: 2px;
+    -webkit-transition: background-color .8s;
+    -moz-transition: background-color .8s;
+    -ms-transition: background-color .8s;
+    -o-transition: background-color .8s;
+    transition: background-color .8s;
 }
 
 .btn-group>a.btn:hover{
@@ -96,6 +101,11 @@ hr{
     border:none;
     color: #fff;
     cursor: pointer;
+    -webkit-transition: background-color .8s;
+    -moz-transition: background-color .8s;
+    -ms-transition: background-color .8s;
+    -o-transition: background-color .8s;
+    transition: background-color .8s;
 }
 
 .btn-group ul li button:hover{

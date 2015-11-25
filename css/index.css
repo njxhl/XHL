@@ -280,6 +280,12 @@
     /*height: 300px;*/
     position: relative;
     display: block;
+
+    -webkit-transition: height .8s;
+    -moz-transition: height .8s;
+    -ms-transition: height .8s;
+    -o-transition: height .8s;
+    transition: height .8s;
 }
 
 #consultation_icon{
@@ -306,6 +312,11 @@
     color: #000;
     padding: 3px 10px;
     background: #DCDFE0;
+    -webkit-transition: background-color .8s;
+    -moz-transition: background-color .8s;
+    -ms-transition: background-color .8s;
+    -o-transition: background-color .8s;
+    transition: background-color .8s;
 }
 
 .consultation-span-1{
@@ -438,6 +449,11 @@
 }
 
 .joinus div a{
+    -webkit-transition: background-color .8s;
+    -moz-transition: background-color .8s;
+    -ms-transition: background-color .8s;
+    -o-transition: background-color .8s;
+    transition: background-color .8s;
     margin-right: 4em;
     font-size: 1.5em;
     display: inline-block;
