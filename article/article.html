@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="../css/article.css">
     <link rel="stylesheet" href="../css/iconfont.css"/>
     <script src="../js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="../UI/amazeUI/js/amazeui.min.js"></script>
     <script>
-
         function getUrlParam(name) {
             var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
             var r = window.location.search.substr(1).match(reg);  //匹配目标参数
@@ -172,6 +172,13 @@
             addArticleContent(data);
             addArticleFoot(data);
             $("#loading").hide();
+            $(function() {
+                $('.am-slider').flexslider({
+                    controlNav: 'thumbnails',
+                    directionNav: false,
+                    slideshow: false
+                });
+            });
         }
 
         function addTitle(data){
@@ -187,6 +194,12 @@
             for(var i=0;i<content.length;i++){
                 if(content[i].type == 'strong'){
                     html += "<p class='text-center'><strong>"+content[i].content+"</strong></p>";
+                }else if(content[i].type == "imgGroup"){
+                    html += "<div style='position: relative;width: 80%;left: 10%;'><div class='am-slider am-slider-d3'> <ul class='am-slides'>";
+                    for(var j=0;j < content[i].content.length;j++){
+                        html += "<li data-thumb='"+data.baseUrl+"/"+content[i].content[j].content+"'> <img src="+data.baseUrl+"/"+content[i].content[j].content+" alt='介绍图'/> </li>";
+                    }
+                    html += "    </ul> </div></div>";
                 }
                 else if(content[i].type == 'img'){
                     html += "<p class='text-center'><img src="+data.baseUrl+"/"+content[i].content+" alt='介绍图'/></p>";

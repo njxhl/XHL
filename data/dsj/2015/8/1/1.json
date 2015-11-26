@@ -7,23 +7,28 @@
   [
     {
       "type":"p",
-      "content":"“百企力合”地推团队在试点城市进行地推工作。"
+      "content":"公司业务团队，在完成与技术部门的需求沟通及确认后，在火热的8月奔赴业务试点城市进行市场推广的前期准备工作。业务团队克服了客情不熟，人手短缺的困难，深入市场一线，调研客户需求。宣传“百企力合”，“利用电子商务平台，服务传统零售市场，弘扬体验式购物文化”的服务理念。业务团队专业、敬业的工作态度得到广大客户的一致认可和好评。"
     },
     {
-      "type":"img",
-      "content":"8-1.jpg"
-    },
-    {
-      "type":"img",
-      "content":"8-2.jpg"
-    },
-    {
-      "type":"img",
-      "content":"8-3.jpg"
-    },
-    {
-      "type":"img",
-      "content":"8-4.jpg"
+      "type":"imgGroup",
+      "content":[
+        {
+          "type":"img",
+          "content":"8-1.jpg"
+        },
+        {
+          "type":"img",
+          "content":"8-2.jpg"
+        },
+        {
+          "type":"img",
+          "content":"8-3.jpg"
+        },
+        {
+          "type":"img",
+          "content":"8-4.jpg"
+        }
+      ]
     }
   ],
   "keywords":
