@@ -73,7 +73,7 @@
     left: 230px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    width: 700px;
+    width: 900px;
     min-height: 600px;
     padding:1em 2em;
 }
@@ -95,3 +95,175 @@
 .right-content p a:hover{
     text-decoration: underline;
 }
+
+.right-content .top{
+
+}
+
+.right-content .division{
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 1px;
+    /*border: none;*/
+    background-color: #cccccc;
+}
+
+.right-content .division>span{
+    display: block;
+    background-color: rgb(16,123,199);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 5px;
+    position: relative;
+    top:-2px;
+}
+
+.right-content .mainContent{
+    position: relative;
+    padding-top: 2em;
+    height:640px;
+}
+
+.mainContent .trunk{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    height: 600px;
+    width: 2px;
+    background-color: #ccc;
+    position: absolute;
+    left: 50%;
+}
+
+.mainContent .trunk:before{
+    content: "";
+    display: inline-block;
+    height:6px;
+    width: 6px;
+    position: relative;
+    left:-2px;
+    top:-14px;
+    border-radius: 100%;
+    background-color: rgb(16,123,199);
+}
+
+.mainContent .trunk ul{
+    list-style:none;
+}
+
+.mainContent .trunk ul>li{
+    width: 100px;
+    display: block;
+    position:relative;
+    margin-top: 20px;
+}
+
+.mainContent-1 .lr1,.mainContent-3 .lr1,.mainContent-5 .lr1,.mainContent-2 .rl3,.mainContent-4 .rl3{
+    background-color: rgb(16,123,199);
+    border-radius: 3px;
+    padding: 3px 5px;
+    color: #fff;
+}
+
+.mainContent-1 .lr1,.mainContent-3 .lr1,.mainContent-5 .lr1{
+    position: relative;
+    left: -150px;
+}
+
+.mainContent-1 .lr1:after,.mainContent-3 .lr1:after,.mainContent-5 .lr1:after,.mainContent-2 .rl3:before,.mainContent-4 .rl3:before   {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    position: absolute;
+    top:50%;
+    margin-top: -5px;
+}
+
+.mainContent-1 .lr1:after,.mainContent-3 .lr1:after,.mainContent-5 .lr1:after{
+    right:0;
+    margin-right: -4px;
+    border-left: 5px solid rgb(16,123,199);
+}
+
+.mainContent-1 .lr2,.mainContent-3 .lr2,.mainContent-5 .lr2,.mainContent-2 .rl2,.mainContent-4 .rl2{
+    width: 36px;
+    height: 36px;
+    display: block;
+    border-radius: 100%;
+    background-color: rgb(16,123,199);
+
+}
+
+.mainContent-1 .lr2,.mainContent-3 .lr2,.mainContent-5 .lr2{
+    position: relative;
+    top:-32px;
+    left:-50px;
+}
+
+.mainContent-1 .lr2:after,.mainContent-3 .lr2:after,.mainContent-5 .lr2:after{
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: rgb(16,123,199);
+    display: block;
+    top:50%;
+    position: absolute;
+    left: 35px;
+}
+
+.mainContent-1 .lr3,.mainContent-3 .lr3,.mainContent-5 .lr3{
+    display: block;
+    width: 300px;
+    position: relative;
+    top:-64px;
+    left:30px;
+}
+
+.mainContent-2 .rl1,.mainContent-4 .rl1{
+    display: block;
+    width: 300px;
+    position: relative;
+}
+
+.mainContent-2 .rl1{
+    left:-300px;
+}
+
+.mainContent-4 .rl1{
+    left:-380px;
+}
+
+.mainContent-2 .rl2,.mainContent-4 .rl2{
+    position: relative;
+    top:-32px;
+    left:-50px;
+}
+
+.mainContent-4 span.rl2{
+    top:-50px;
+}
+
+.mainContent-4 span.rl3{
+    top:-80px;
+}
+
+
+.mainContent-2 .rl3,.mainContent-4 .rl3{
+    position: relative;
+    top:-64px;
+}
+
+.mainContent-2 .rl3:before,.mainContent-4 .rl3:before{
+    left:0;
+    margin-left: -4px;
+    border-right: 5px solid rgb(16,123,199);
+}
+
+
+
