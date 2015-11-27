@@ -219,6 +219,13 @@
     left: 35px;
 }
 
+.lr2 span,.rl2 span{
+    line-height: 36px;
+    font-size: 26px;
+    color: #fff;
+    margin-left: 5px;
+}
+
 .mainContent-1 .lr3,.mainContent-3 .lr3,.mainContent-5 .lr3{
     display: block;
     width: 300px;

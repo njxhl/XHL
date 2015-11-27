@@ -15,11 +15,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-qiyelinian:before { content: "\e608"; }
 .icon-you:before { content: "\e600"; }
 .icon-zuo:before { content: "\e601"; }
-.icon-gonggao:before { content: "\e602"; }
-.icon-jiaru:before { content: "\e607"; }
+.icon-gonggao01:before { content: "\e602"; }
+.icon-hexinjiazhi:before { content: "\e609"; }
+.icon-flag:before { content: "\e60a"; }
 .icon-dianhua:before { content: "\e603"; }
+.icon-zhangshangcaifuyemianshoujiban345:before { content: "\e60b"; }
 .icon-weixin:before { content: "\e604"; }
-.icon-gongsidongtai:before { content: "\e605"; }
-.icon-gongsidsj:before { content: "\e606"; }
+.icon-qiyedongtai:before { content: "\e605"; }
+.icon-jingshen:before { content: "\e60c"; }
+.icon-you1:before { content: "\e607"; }
+.icon-xsdsj:before { content: "\e606"; }
