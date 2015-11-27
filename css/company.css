@@ -127,11 +127,13 @@
     height:640px;
 }
 
+
+/*企业文化样式*/
 .mainContent .trunk{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3px;
-    height: 60 0px;
+    height: 600px;
     width: 2px;
     background-color: #ccc;
     position: absolute;
@@ -276,5 +278,179 @@
     border-right: 5px solid rgb(16,123,199);
 }
 
+/*企业文化样式end*/
+
+.hrContent{
+    position: absolute;
+    left:50%;
+    top:20px;
+    margin-left: -180px;
+}
+
+.hr-l{
+    position: relative;
+    left:-220px;
+    top: -50px;
+    height: 0;
+    overflow: hidden;
+    cursor: default;
+}
+
+.hr-l .hr-title{
+    color: #fff;
+    background-color: rgb(16,123,199);
+    padding:5px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top:-30px;
+    left: 70px;
+    z-index: 5;
+}
+
+.hr-l .hr-content{
+    width: 220px;
+    background-color: rgb(152,200,231);
+    border-radius: 10px;
+    padding: 10px 5px;
+    z-index: 4;
+    position: relative;
+}
+
+.hr-l .hr-content p{
+    padding: 0 5px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.hr-l-1{
+    cursor: pointer;
+}
+
+.hr-l-2{
+    cursor: pointer;
+    position: relative;
+    top:60px;
+    left:-40px;
+}
+
+.hr-l-3{
+    cursor: pointer;
+    position: relative;
+    top:120px;
+    left:-10px;
+}
+
+.hr-l-4{
+    cursor: pointer;
+    position: relative;
+    top:180px;
+    left:-10px;
+}
+
+.hr-l-5{
+    cursor: pointer;
+    position: relative;
+    top:218px;
+    left:70px;
+}
 
 
+.hr-l{
+    position: relative;
+    left:-220px;
+    top: -50px;
+    height: 0;
+    overflow: hidden;
+    cursor: default;
+}
+
+.hr-r{
+    position: relative;
+    top: -50px;
+    height: 0;
+    overflow: hidden;
+    cursor: default;
+}
+
+.hr-r .hr-title{
+    color: #fff;
+    background-color: rgb(16,123,199);
+    padding:5px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top:-30px;
+    right: 70px;
+    z-index: 5;
+}
+
+.hr-r .hr-content{
+    width: 220px;
+    background-color: rgb(152,200,231);
+    border-radius: 10px;
+    padding: 10px 5px;
+    z-index: 4;
+    position: relative;
+}
+
+.hr-r .hr-content p{
+    padding: 0 5px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.hr-r-1{
+    cursor: pointer;
+    position: relative;
+    top:-100px;
+    right:-220px;
+}
+
+.hr-r-1 .hr-r{
+    right:-90px;
+}
+
+.hr-r-2{
+    cursor: pointer;
+    position: relative;
+    top:-30px;
+    right:-220px;
+}
+
+.hr-r-2 .hr-r{
+    right: -106px;
+}
+
+.hr-r-3{
+    cursor: pointer;
+    position: relative;
+    top:45px;
+    right:-220px;
+}
+
+.hr-r-3 .hr-r{
+    right: -106px;
+}
+
+.hr-r-4{
+    cursor: pointer;
+    position: relative;
+    top:95px;
+    right:-230px;
+}
+
+.hr-r-4 .hr-r{
+    right: -122px;
+}
+
+.hr-r-5{
+    cursor: pointer;
+    position: relative;
+    top:130px;
+    right:-220px;
+}
+
+.hr-r-5 .hr-r{
+    right: -155px;
+}
