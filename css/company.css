@@ -134,7 +134,7 @@
     margin-right: auto;
     margin-top: 3px;
     height: 600px;
-    width: 2px;
+    width: 1px;
     background-color: #ccc;
     position: absolute;
     left: 50%;
@@ -146,7 +146,7 @@
     height:6px;
     width: 6px;
     position: relative;
-    left:-2px;
+    left:-2.5px;
     top:-14px;
     border-radius: 100%;
     background-color: rgb(16,123,199);
