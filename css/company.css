@@ -73,7 +73,7 @@
     left: 230px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    width: 900px;
+    width: 870px;
     min-height: 600px;
     padding:1em 2em;
 }
@@ -280,6 +280,8 @@
 
 /*企业文化样式end*/
 
+
+/*人才招聘*/
 .hrContent{
     position: absolute;
     left:50%;
@@ -454,3 +456,4 @@
 .hr-r-5 .hr-r{
     right: -155px;
 }
+/*人才招聘end*/
