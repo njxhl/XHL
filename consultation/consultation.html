@@ -165,13 +165,12 @@
                     else{
                         ht += "<div>";
                     }
-                    var articleUrl = "../article/article.html?type=dsj&year="+data[i].year+"&month="+data[i].month+"&file="+data[i].articleUrl;
+                    var articleUrl = "../data/dsj/"+data[i].year+"/"+data[i].month+"/"+data[i].articleUrl+"/dsj.html";
                     ht += "<div class='img-left'><img src='"+data[i].previewImg+"' alt='预览图'/></div><div class='newRight'>"
                             + "<h3>"+data[i].title+"</h3>"
                             + "<p class='newDetail'>"+subString(data[i].content)+"</p>"
                             + "<div class='newsBottom'><span class='time'>"+data[i].year+"年"+data[i].month+"月</span>"
-                            + "" +
-//                            "<a href='"+articleUrl+"'><span class='readAll'>阅读全文</span></a>" +
+                            + "<a href='"+articleUrl+"'><span class='readAll'>阅读全文</span></a>" +
                             "</div>"
                             + "</div></div>";
                 }
